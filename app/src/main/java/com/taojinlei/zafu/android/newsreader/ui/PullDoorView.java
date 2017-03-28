@@ -33,8 +33,6 @@ public class PullDoorView extends RelativeLayout{
 
     private int mScreenWidth = 0;
 
-    private int tt = 0;
-
     private int mScreenHeigh = 0;
 
     private int mLastDownY = 0;
