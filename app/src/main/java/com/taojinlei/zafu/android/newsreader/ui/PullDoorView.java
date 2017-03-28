@@ -24,7 +24,7 @@ import com.taojinlei.zafu.android.newsreader.R;
  * 文件名:   PullDoorView
  * 创建者:   taojinlei
  * 创建时间:  2017/3/26下午1:02
- * 描述:     TODO
+ * 描述:     仿ZAKER推拉门特效
  */
 public class PullDoorView extends RelativeLayout{
     private Context mContext;
@@ -32,6 +32,8 @@ public class PullDoorView extends RelativeLayout{
     private Scroller mScroller;
 
     private int mScreenWidth = 0;
+
+    private int tt = 0;
 
     private int mScreenHeigh = 0;
 
