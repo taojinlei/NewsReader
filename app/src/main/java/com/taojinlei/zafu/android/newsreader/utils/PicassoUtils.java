@@ -13,7 +13,7 @@ import com.squareup.picasso.Transformation;
  * 文件名:   PicassoUtils
  * 创建者:   taojinlei
  * 创建时间:  2017/3/27下午4:35
- * 描述:     TODO
+ * 描述:     Picasso类
  */
 public class PicassoUtils {
     //默认加载

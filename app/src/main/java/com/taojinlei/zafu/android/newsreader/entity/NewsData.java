@@ -6,7 +6,7 @@ package com.taojinlei.zafu.android.newsreader.entity;
  * 文件名:   NewsData
  * 创建者:   taojinlei
  * 创建时间:  2017/3/27下午3:37
- * 描述:     TODO
+ * 描述:     newsdata
  */
 public class NewsData {
     private String title;

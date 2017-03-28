@@ -20,7 +20,7 @@ import java.util.List;
  * 文件名:   NewsAdapter
  * 创建者:   taojinlei
  * 创建时间:  2017/3/27下午3:35
- * 描述:     TODO
+ * 描述:     newsadapter
  */
 public class NewsAdapter extends BaseAdapter {
     private Context mContext;

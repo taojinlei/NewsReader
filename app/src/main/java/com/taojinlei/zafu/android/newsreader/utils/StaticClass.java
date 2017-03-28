@@ -6,7 +6,7 @@ package com.taojinlei.zafu.android.newsreader.utils;
  * 文件名:   StaticClass
  * 创建者:   taojinlei
  * 创建时间:  2017/3/25下午7:32
- * 描述:     TODO
+ * 描述:     常量
  */
 public class StaticClass {
 

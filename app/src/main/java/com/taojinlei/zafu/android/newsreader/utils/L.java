@@ -8,7 +8,7 @@ import android.util.Log;
  * 文件名:   L
  * 创建者:   taojinlei
  * 创建时间:  2017/3/26下午1:21
- * 描述:     TODO
+ * 描述:     log类
  */
 public class L {
     //开关

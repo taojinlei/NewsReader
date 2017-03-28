@@ -9,7 +9,7 @@ import android.content.SharedPreferences;
  * 文件名:   ShareUtil
  * 创建者:   taojinlei
  * 创建时间:  2017/3/26下午1:26
- * 描述:     TODO
+ * 描述:     SharedPreferences类
  */
 public class ShareUtil {
     private static final String NAME = "config";

@@ -17,7 +17,7 @@ import com.taojinlei.zafu.android.newsreader.R;
  * 文件名:   WebViewActivity
  * 创建者:   taojinlei
  * 创建时间:  2017/3/27下午4:17
- * 描述:     TODO
+ * 描述:     新闻显示页
  */
 public class WebViewActivity extends BaseActivity {
     private ProgressBar mProgressBar;
