@@ -22,7 +22,7 @@ import java.util.List;
  * 文件名:   GuideActivity
  * 创建者:   taojinlei
  * 创建时间:  2017/3/26下午2:19
- * 描述:     导航页
+ * 描述:     导航页activity
  */
 public class GuideActivity extends AppCompatActivity implements View.OnClickListener {
 
