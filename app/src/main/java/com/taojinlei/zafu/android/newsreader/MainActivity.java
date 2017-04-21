@@ -12,6 +12,7 @@ import android.view.View;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.taojinlei.zafu.android.newsreader.fragment.CaiJingFragment;
 import com.taojinlei.zafu.android.newsreader.fragment.GuoJiFragment;
@@ -23,7 +24,9 @@ import com.taojinlei.zafu.android.newsreader.fragment.ShiShangFragment;
 import com.taojinlei.zafu.android.newsreader.fragment.TiYuFragment;
 import com.taojinlei.zafu.android.newsreader.fragment.TopFragment;
 import com.taojinlei.zafu.android.newsreader.fragment.YuLeFragment;
+import com.taojinlei.zafu.android.newsreader.ui.LoginActivity;
 import com.taojinlei.zafu.android.newsreader.ui.SettingActivity;
+import com.taojinlei.zafu.android.newsreader.utils.ShareUtil;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -125,7 +128,12 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.fab_setting:
-                startActivity(new Intent(this, SettingActivity.class));
+                if (ShareUtil.getString(this, "username", "") == "") {
+                    Toast.makeText(MainActivity.this, "请先登录！", Toast.LENGTH_SHORT).show();
+                    startActivity(new Intent(this, LoginActivity.class));
+                } else {
+                    startActivity(new Intent(this, SettingActivity.class));
+                }
                 break;
         }
     }

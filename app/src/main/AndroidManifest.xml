@@ -45,6 +45,8 @@
             android:theme="@style/NoActivityFullscreen"/>
 
         <activity android:name=".ui.WebViewActivity"/>
+
+        <activity android:name=".ui.LoginActivity"/>
     </application>
 
 </manifest>
